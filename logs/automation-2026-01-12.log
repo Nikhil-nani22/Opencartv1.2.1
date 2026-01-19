@@ -1,0 +1,49 @@
+00:58:14.621 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+00:58:18.319 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+00:58:18.930 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+00:58:19.403 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+00:58:19.887 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+01:07:20.147 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+01:07:20.523 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+01:12:30.384 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+01:12:30.672 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+01:12:49.239 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+01:18:05.690 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+01:18:05.949 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+01:18:24.080 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+01:20:04.589 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+01:20:04.955 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+01:20:13.336 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+22:48:30.534 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+22:48:30.936 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+22:48:36.522 [main] INFO  testCases.TC001_AccountRegistrationTest - starting TC001_AccountRegistrationTest
+22:48:36.671 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on myaccount
+22:48:37.069 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on registration
+22:48:37.071 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+22:48:39.209 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+22:48:39.298 [main] INFO  testCases.TC001_AccountRegistrationTest - finished test case AccountRegistrationTest
+22:48:41.378 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **
+22:48:41.849 [main] INFO  testCases.TC002_LoginTest - ****Tc_02_LoginTestCase completed****
+23:51:38.623 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+23:51:39.045 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+23:51:44.293 [main] INFO  testCases.TC001_AccountRegistrationTest - starting TC001_AccountRegistrationTest
+23:51:44.520 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on myaccount
+23:51:44.973 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on registration
+23:51:44.982 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+23:51:47.037 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+23:51:47.114 [main] INFO  testCases.TC001_AccountRegistrationTest - finished test case AccountRegistrationTest
+23:51:49.362 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **

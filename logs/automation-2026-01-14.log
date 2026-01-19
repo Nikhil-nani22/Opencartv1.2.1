@@ -1,0 +1,46 @@
+22:51:12.372 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:51:12.380 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:51:12.381 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:51:12.383 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+22:51:12.385 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:51:12.385 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:51:12.386 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:51:12.386 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:51:12.403 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--23011384\testng-customsuite.xml
+
+22:51:12.753 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+22:51:14.597 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2fc07784: 243 ms
+22:51:14.710 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1603dc2f: 111 ms
+22:51:14.770 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@41c204a0: 58 ms
+22:51:14.785 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@65bb9029: 15 ms
+22:51:14.801 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6daf2337: 16 ms
+22:51:14.802 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@24fabd0f: 0 ms
+22:57:43.064 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+22:57:43.380 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+22:57:49.289 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **
+22:57:49.945 [main] INFO  testCases.TC002_LoginTest - ****Tc_02_LoginTestCase completed****
+22:58:20.925 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+22:58:21.196 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+22:58:24.471 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **
+22:58:25.034 [main] INFO  testCases.TC002_LoginTest - ****Tc_02_LoginTestCase completed****
+23:43:22.251 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+23:43:22.567 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+23:43:26.377 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **
+23:44:20.502 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+23:44:20.817 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+23:44:24.148 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **
+23:53:27.905 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml] otherwise TestNG may fail or not work as expected.
+23:53:28.202 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\grouping.xml
+
+23:53:31.525 [main] INFO  testCases.TC002_LoginTest - **starting TC002_LoginTest **
+23:53:33.354 [main] INFO  testCases.TC002_LoginTest - ****Tc_02_LoginTestCase completed****

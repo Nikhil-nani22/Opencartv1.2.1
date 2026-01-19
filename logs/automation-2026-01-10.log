@@ -1,0 +1,45 @@
+20:15:00.188 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+20:15:00.530 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+20:16:27.628 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+20:16:27.911 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+20:16:58.146 [main] INFO  testCases.TC001_AccountRegistrationTest - starting TC001_AccountRegistrationTest
+20:16:58.395 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on myaccount
+20:17:00.526 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on registration
+20:17:00.533 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+20:17:03.600 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+20:17:03.699 [main] INFO  testCases.TC001_AccountRegistrationTest - finished test case AccountRegistrationTest
+20:31:47.547 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\crossbrowser.xml] otherwise TestNG may fail or not work as expected.
+20:31:47.895 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\test-output\crossbrowser.xml
+
+20:32:06.775 [main] INFO  testCases.TC001_AccountRegistrationTest - starting TC001_AccountRegistrationTest
+20:32:07.016 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on myaccount
+20:32:09.144 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on registration
+20:32:09.146 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+20:32:11.286 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+20:32:11.418 [main] INFO  testCases.TC001_AccountRegistrationTest - finished test case AccountRegistrationTest
+20:32:32.403 [main] INFO  testCases.TC001_AccountRegistrationTest - starting TC001_AccountRegistrationTest
+20:32:32.573 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on myaccount
+20:32:37.290 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on registration
+20:32:37.294 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+20:32:40.064 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+20:32:40.110 [main] INFO  testCases.TC001_AccountRegistrationTest - finished test case AccountRegistrationTest
+21:06:26.099 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+21:06:26.533 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+21:06:31.076 [main] INFO  testCases.TC001_AccountRegistrationTest - starting TC001_AccountRegistrationTest
+21:06:31.321 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on myaccount
+21:06:32.662 [main] INFO  testCases.TC001_AccountRegistrationTest - clicked on registration
+21:06:32.669 [main] INFO  testCases.TC001_AccountRegistrationTest - providing customer details
+21:06:34.611 [main] INFO  testCases.TC001_AccountRegistrationTest - validating expected message
+21:06:34.676 [main] INFO  testCases.TC001_AccountRegistrationTest - finished test case AccountRegistrationTest
+17:40:33.037 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
+17:40:33.466 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml
+
+17:41:35.583 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Administrator\eclipse-workspace\Opencartv1.2.1\master.xml] otherwise TestNG may fail or not work as expected.
