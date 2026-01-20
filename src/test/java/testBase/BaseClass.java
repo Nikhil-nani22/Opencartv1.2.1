@@ -45,7 +45,7 @@ public class BaseClass {
 	        logger=LogManager.getLogger(this.getClass());
 	        String executionEnv = p.getProperty("execution_env");
 	        //for headless mode
-	        if (executionEnv.equalsIgnoreCase("remote")) {
+	       /* if (executionEnv.equalsIgnoreCase("remote")) {
 
 	            ChromeOptions options = new ChromeOptions();
 	            options.addArguments("--headless=new");   // headless
@@ -64,6 +64,33 @@ public class BaseClass {
 	                    new URL("http://localhost:4444"),
 	                    capabilities
 	            );
+	        }*/
+	        if (executionEnv.equalsIgnoreCase("remote")) {
+	            // 1. Set Chrome Options first
+	            ChromeOptions options = new ChromeOptions();
+	            options.addArguments("--headless=new"); // MUST be headless for Jenkins Service
+	            options.addArguments("--no-sandbox");
+	            options.addArguments("--disable-dev-shm-usage");
+	            options.addArguments("--remote-allow-origins=*");
+
+	            // 2. Setup Capabilities
+	            DesiredCapabilities capabilities = new DesiredCapabilities();
+	            
+	            // Match the OS from your TestNG parameter
+	            if (os.equalsIgnoreCase("windows")) {
+	                capabilities.setPlatform(Platform.WIN11);
+	            } else if (os.equalsIgnoreCase("linux")) {
+	                capabilities.setPlatform(Platform.LINUX);
+	            }
+
+	            capabilities.setBrowserName("chrome");
+	            
+	            // 3. Merge options into capabilities
+	            capabilities.merge(options);
+
+	            // 4. Initialize RemoteWebDriver
+	            // Ensure the URL matches your server (usually /wd/hub for Selenium 3/4 Grid)
+	            driver = new RemoteWebDriver(new URL("http://localhost:4444"), capabilities);
 	        }
 
 	        //for headed mode
