@@ -45,7 +45,7 @@ public class BaseClass {
 	        logger=LogManager.getLogger(this.getClass());
 	        String executionEnv = p.getProperty("execution_env");
 	        //for headless mode
-	       /* if (executionEnv.equalsIgnoreCase("remote")) {
+	        if (executionEnv.equalsIgnoreCase("remote")) {
 
 	            ChromeOptions options = new ChromeOptions();
 	            options.addArguments("--headless=new");   // headless
@@ -64,8 +64,8 @@ public class BaseClass {
 	                    new URL("http://localhost:4444"),
 	                    capabilities
 	            );
-	        }*/
-	        if (executionEnv.equalsIgnoreCase("remote")) {
+	        }
+	       /* if (executionEnv.equalsIgnoreCase("remote")) {
 	            // 1. Set Chrome Options first
 	            ChromeOptions options = new ChromeOptions();
 	            options.addArguments("--headless=new"); // MUST be headless for Jenkins Service
@@ -91,7 +91,7 @@ public class BaseClass {
 	            // 4. Initialize RemoteWebDriver
 	            // Ensure the URL matches your server (usually /wd/hub for Selenium 3/4 Grid)
 	            driver = new RemoteWebDriver(new URL("http://localhost:4444"), capabilities);
-	        }
+	        }*/
 
 	        //for headed mode
 	       /* if (executionEnv.equalsIgnoreCase("remote")) {
