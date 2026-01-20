@@ -26,18 +26,20 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+
 public class BaseClass {
 	public static WebDriver driver;
 	public Logger logger;
 	public Properties p;
 	
-  @BeforeClass(groups= {"Sanity","Master","Regression","DataDriven"})
-  @Parameters({"os","browser"})
-	    public void setup(String os, String br) throws IOException 
-		{
-	       
-	        
-	        //Loading config.properties file
+	@Parameters({"os","browser"})
+	@BeforeClass(groups= {"Sanity","Master","Regression","DataDriven"})
+	public void setup(
+	        @org.testng.annotations.Optional("Windows") String os,
+	        @org.testng.annotations.Optional("chrome") String br
+	) throws IOException
+	{
+            //Loading config.properties file
 	       
 	        FileReader file = new FileReader("./src//test//resources/config.properties");
 	        p=new Properties();

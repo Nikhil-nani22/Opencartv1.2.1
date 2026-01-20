@@ -13,7 +13,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 public void verify_account_registration()
  {
 	logger.info("starting TC001_AccountRegistrationTest");
-   try {	
+   	
    HomePage hp= new HomePage(driver);
    hp.clickMyAccount();
    logger.info("clicked on myaccount");
@@ -32,13 +32,11 @@ public void verify_account_registration()
    repage.clickcontinue();
    logger.info("validating expected message");
    String confmsg= repage.getConfirmationmsg();
-   Assert.assertEquals(confmsg,"Your Account Has Been Created!");
- }catch(Exception e)
-   {
-	logger.error("Test failed");
-	logger.debug("Debug logs");
-	Assert.fail();
-   }
+   System.out.println("CONFIRMATION MESSAGE IS >>> " + confmsg);
+   Assert.assertNotNull(confmsg, "Confirmation message is NULL");
+   Assert.assertEquals(confmsg.trim(), "Your Account Has Been Created!");
+  
+ 
    logger.info("finished test case AccountRegistrationTest");
  }  
 }
