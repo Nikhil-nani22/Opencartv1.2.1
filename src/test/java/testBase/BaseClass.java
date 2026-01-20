@@ -17,6 +17,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -43,23 +44,46 @@ public class BaseClass {
 	        p.load(file);
 	        logger=LogManager.getLogger(this.getClass());
 	        String executionEnv = p.getProperty("execution_env");
-	        if (executionEnv.equalsIgnoreCase("remote")) 
-	         
-	        {
-	        	 DesiredCapabilities capabilities= new DesiredCapabilities();
-	        	  capabilities.setPlatform(Platform.LINUX);
-	        	  
-	        	 
-	        	 //Browser
-	        	 switch(br.toLowerCase())
-	        	 {
-	        	 case "chrome":capabilities.setBrowserName("chrome");break;
-	        	 case "edge":capabilities.setBrowserName("MicrosoftEdge");break;
-	        	 case "firefox":capabilities.setBrowserName("firefox"); break;
-	        	 default:System.out.println("No matching browser");return;
-	        	 }
-	        	 driver=new RemoteWebDriver(new URL("http://localhost:4444"),capabilities);
+	        //for headless mode
+	        if (executionEnv.equalsIgnoreCase("remote")) {
+
+	            ChromeOptions options = new ChromeOptions();
+	            options.addArguments("--headless=new");   // headless
+	            options.addArguments("--disable-gpu");
+	            options.addArguments("--window-size=1920,1080");
+	            options.addArguments("--no-sandbox");
+	            options.addArguments("--disable-dev-shm-usage");
+
+	            DesiredCapabilities capabilities = new DesiredCapabilities();
+	            capabilities.setBrowserName("chrome");
+	            capabilities.setPlatform(Platform.LINUX);
+
+	            capabilities.merge(options);
+
+	            driver = new RemoteWebDriver(
+	                    new URL("http://localhost:4444"),
+	                    capabilities
+	            );
 	        }
+
+	        //for headed mode
+	       /* if (executionEnv.equalsIgnoreCase("remote")) {
+
+	            ChromeOptions options = new ChromeOptions();
+	            // ❌ DO NOT add --headless
+	            options.addArguments("--start-maximized");
+
+	            DesiredCapabilities capabilities = new DesiredCapabilities();
+	            capabilities.setBrowserName("chrome");
+	            capabilities.setPlatform(Platform.LINUX);
+	            capabilities.merge(options);
+
+	            driver = new RemoteWebDriver(
+	                    new URL("http://localhost:4444"),
+	                    capabilities
+	            );
+	        }*/
+
 	         
 	        else if (executionEnv.equalsIgnoreCase("local"))
 	        {
@@ -71,6 +95,20 @@ public class BaseClass {
 		        default: System.out.println("invalid browser");return;
 		        }
 	        }
+	        
+	        //for headless mode in local
+	        /*
+	         else if (executionEnv.equalsIgnoreCase("local"))
+	          {
+
+			    ChromeOptions options = new ChromeOptions();
+			    options.addArguments("--headless=new");
+			    options.addArguments("--window-size=1920,1080");
+			
+			    driver = new ChromeDriver(options);
+			  }
+           */
+	        
 	        driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.get(p.getProperty("appURL"));// reading URL from properties file
