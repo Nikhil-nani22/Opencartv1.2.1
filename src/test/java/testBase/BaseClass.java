@@ -70,11 +70,11 @@ public class BaseClass {
 	       /* if (executionEnv.equalsIgnoreCase("remote")) {
 
 	            ChromeOptions options = new ChromeOptions();
-	            // ❌ DO NOT add --headless
+	            
 	            options.addArguments("--start-maximized");
 
 	            DesiredCapabilities capabilities = new DesiredCapabilities();
-	            capabilities.setBrowserName("chrome");
+	            capabilities.setBroswerName("chrome");
 	            capabilities.setPlatform(Platform.LINUX);
 	            capabilities.merge(options);
 
